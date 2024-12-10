@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Press+Start+2P&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+HU:wght@100..400&family=Press+Start+2P&family=VT323&display=swap');
+:root
+{
+    --cor-Roxo-escuro: #192026;
+    --cor-Roxo-medio: #191825;
+    --cor-Roxo-claro: #865DFF;
+    --cor-Rosa-claro: #FFA3FD;
+    --cor-Branco: white;
+    --font-titulo-nome2: "VT323", monospace;
+    --font-corpo:"Lato", sans-serif;
+    --cor-texts: white;
+}
+
+.white{
+    color:white;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* 
+{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-corpo);
+    font-weight: 300;
+}
+
+html, body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-Roxo-medio);
+}
+
+.center-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texts
+{
+    color: var(--cor-texts);
+}
+
+header
+{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#img-perfil
+{
+
+    height: 250px;
+    border-radius: 120px;
+}
+
+#nome
+{
+
+    color: var(--cor-Branco);
+    font-family: var(--font-titulo-nome2);
+    font-weight: 100;
+    padding-left: 20px;    font-size: calc(2.375rem + 1.5vw) !important;
+
+}
+
+#social-medias
+{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-left: 50px;
+}
+
+a
+{
+    width: 300px;
+    width: 200px;
+    font-style: none;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+#icons-link
+{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    color: var(--cor-Roxo-claro);
+}
+
+.corpo
+{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pagina{
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+
